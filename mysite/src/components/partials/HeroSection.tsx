@@ -20,14 +20,14 @@ const HeroSection = () => {
           {' '}
           {' '}
           <Typed
-  strings={ [ 
-    "I'm an Undergrade Student",
-    "Tech Enthusiast",
-    "Aspiring Technology Specialist"
-  ]}
-  typeSpeed={60}
-  backSpeed={30}
-  loop
+            strings={ [ 
+              'I\'m an Undergrade Student',
+              'Tech Enthusiast',
+              'Aspiring Technology Specialist'
+            ]}
+            typeSpeed={60}
+            backSpeed={30}
+            loop
           />
         </div>
         <div className="mt-6  flex gap-8">
